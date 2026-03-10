@@ -1,0 +1,17 @@
+title: Share Notes
+description: chundev
+theme: jekyll-theme-minimal
+markdown: kramdown
+
+url: "https://notes.chundev.com"
+
+# 排除不需要的檔案
+exclude:
+  - README.md
+  - LICENSE
+
+defaults:
+  - scope:
+      path: "notes"
+    values:
+      layout: "post"
