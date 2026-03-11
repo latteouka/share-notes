@@ -16,7 +16,8 @@ title: Share Notes
 <ul>
 {% assign notes = site.pages | where_exp: "page", "page.path contains 'notes/'" | where_exp: "page", "page.path != 'notes/'" | sort: "path" | reverse %}
 {% for note in notes %}
-  <li><a href="{{ note.url | relative_url }}">{{ note.title }}</a></li>
+  {% assign filename = note.path | split: "/" | last | split: "_" | first %}
+  <li><span class="note-date">{{ filename }}</span> <a href="{{ note.url | relative_url }}">{{ note.title }}</a></li>
 {% endfor %}
 </ul>
 
