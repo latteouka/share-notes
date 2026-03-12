@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Nutanix Acropolis Crash Loop — NTP 時間漂移引發 IDF 資料損壞，全部 VM 假死
+category: infra
+tags: [nutanix, ntp, incident]
 ---
 
 # Nutanix Acropolis Crash Loop — NTP 時間漂移引發 IDF 資料損壞，全部 VM 假死

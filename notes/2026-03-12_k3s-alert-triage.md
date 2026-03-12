@@ -1,6 +1,8 @@
 ---
 layout: default
 title: K3s 叢集 Alert 清查與處置紀錄
+category: infra
+tags: [k3s, alerting]
 ---
 
 # K3s 叢集 Alert 清查與處置紀錄

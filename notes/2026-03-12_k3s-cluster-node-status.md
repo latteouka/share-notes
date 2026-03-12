@@ -1,6 +1,8 @@
 ---
 layout: default
 title: K3s 叢集節點狀態與資源總覽
+category: infra
+tags: [k3s, monitoring]
 ---
 
 # K3s 叢集節點狀態與資源總覽

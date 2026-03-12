@@ -145,6 +145,48 @@ footer,
   margin-right: 6px;
 }
 
+/* Filter 按鈕列 */
+#filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.filter-btn {
+  padding: 4px 12px;
+  font-size: 13px;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  background: #f8f8f8;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    border-color: #4078c0;
+    color: #4078c0;
+  }
+
+  &.active {
+    background: #4078c0;
+    color: #fff;
+    border-color: #4078c0;
+  }
+}
+
+.filter-category {
+  border-color: #e0c860;
+  color: #8a7620;
+  background: #fdf8e4;
+
+  &.active {
+    background: #e0c860;
+    color: #fff;
+    border-color: #e0c860;
+  }
+}
+
 .no-results {
   color: #999;
   font-style: italic;

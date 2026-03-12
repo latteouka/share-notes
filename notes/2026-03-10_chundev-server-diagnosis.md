@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Linux 主機 CPU 高負載清查 — Neo4j 容器 GC 風暴
+category: infra
+tags: [linux, docker, neo4j]
 ---
 
 # Linux 主機 CPU 高負載清查 — Neo4j 容器 GC 風暴
