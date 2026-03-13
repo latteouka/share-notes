@@ -8,7 +8,7 @@ tags: [nvidia, gpu, kernel, dkms, linux]
 # NVIDIA Driver 消失 — Kernel 更新後 GPU Module 未重建
 
 **日期：2026-03-13**
-**主機：192.168.98.60（stt, Ubuntu 24.04, NVIDIA L40S）**
+**主機：stt（Ubuntu 24.04, NVIDIA L40S）**
 **嚴重程度：High — GPU 不可用，語音轉錄服務失敗**
 **狀態：已解決**
 
